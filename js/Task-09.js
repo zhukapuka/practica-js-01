@@ -19,12 +19,14 @@ function isAdult2(age) {
     return checkAge;
   }
 }
-
+console.log(isAdult2(13));
 // 3
 function isAdult3(age) {
   return age >= 18 ? true : confirm("Are you adult?");
 }
+console.log(isAdult3(24));
 // 4
 function isAdult4(age) {
   return age >= 18 || confirm("Are you adult?");
 }
+console.log(isAdult4(16));
